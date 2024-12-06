@@ -232,6 +232,39 @@ export const myProjects = [
 
         ],
     },
+    {
+        title: 'StoreIt - A storage management system',
+        desc: 'StoreIt is a user-friendly storage management website that allows users to securely upload, store, and organize their photos, videos, documents, and audio files. Access your files anytime, anywhere with robust security and seamless sharing options.',
+        subdesc: 'Built with Next.js 15, javascript, shadcn and appwrite database.',
+        href: 'https://storeease.vercel.app/',
+        texture: '/textures/project/project6.mp4',
+        logo: '/assets/project-logo6.png',
+        logoStyle: {
+            backgroundColor: '#2A1816',
+            border: '0.2px solid #36201D',
+            boxShadow: '0px 0px 60px 0px #AA3C304D',
+        },
+        spotlight: '/assets/spotlight1.png',
+        tags: [
+            {
+                id: 1,
+                name: 'Next.js 15',
+                path: '/assets/Next.svg',
+            },
+            {
+                id: 2,
+                name: 'TailwindCSS',
+                path: 'assets/tailwindcss.png',
+            },
+            {
+                id: 3,
+                name: 'TypeScript',
+                path: '/assets/typescript.png',
+            },
+
+        ],
+    }
+    
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
